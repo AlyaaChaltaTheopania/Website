@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/Website/">
       <div className="min-h-screen">
         <nav className="p-2 bg-rose-300 text-white fixed w-full shadow-md z-50">
           <div className="container mx-auto flex justify-between items-center">
